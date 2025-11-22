@@ -205,3 +205,16 @@
 // 	return newArr.join("");
 // }
 // console.log(removeVowel(name))
+
+Question 
+==============
+var abc = [[{name:'saroj'}], [{name:'lipi'}]];
+//output will be [ [ { name: 'saroj' } ] ] or [ [ { name: 'lipi' } ] ];
+function nameArray(value){
+  return abc.map((item1)=>{
+    return item1
+  }).filter((item)=>{
+    return item[0].name == value
+  })
+}
+console.log(nameArray('saroj'))
