@@ -131,7 +131,7 @@
 //   obj[key] = obj[key] ? obj[key] +1 : 1
 // }
 // let result = Object.keys(obj).filter((item)=> obj[item] == 1 )
-// return uniqueArr;
+// return result;
 // };
 // const value = arrayFn([1,2,3], [2,3,4], [3,4,5], [3,4,6], [5,6,7,8]);
 // console.log(value)
