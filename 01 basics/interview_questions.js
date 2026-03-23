@@ -205,6 +205,27 @@
 // }
 // console.log(removeVowel(name))
 
+// function sqRoot(num) {
+//   let start = 1;
+//   let end = num;
+//   let ans = 0;
+//   while (start <= end) {
+//     let mid = Math.floor((start + end) / 2);
+//     if (mid * mid == num) {
+//       return mid;
+//     }
+//     if (mid * mid < num) {
+//       ans = mid;
+//       start = mid + 1;
+//     } else {
+//       end = mid - 1;
+//     }
+//   }
+//   return ans;
+// }
+// console.log(sqRoot(25)); // 5
+// console.log(sqRoot(100)); // 10
+
 Question 
 ==============
 var abc = [[{name:'saroj'}], [{name:'lipi'}]];
