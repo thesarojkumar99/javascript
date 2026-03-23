@@ -1,6 +1,5 @@
-//Question-01 sorting an array wihout using pridefined methords
+//Question-01 sorting an array wihout using predefined methods
 // let arr = [-2, 3, 1, 0, 10, 4, 8, -1, -3, -6, 20, 100, 5, 1, -3, 5];
-// let newArr = [];
 // let c;
 // for (let i = 0; i < arr.length; i++) {
 //   for (let j = 0; j < arr.length; j++) {
