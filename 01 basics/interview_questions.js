@@ -165,7 +165,7 @@
 
 
 
-//find the longest string from a string
+//Q-10:find the longest string from a string
 // function calcualteLongestStr(str){
 //     let arr = str.split("");
 //     let newStr = '';
@@ -225,6 +225,24 @@
 // }
 // console.log(sqRoot(25)); // 5
 // console.log(sqRoot(100)); // 10
+
+//Find the sum of two array with same index value
+// function sumArraysByIndex(arr1, arr2) {
+//   let newArr = [];
+//   let maxLength = Math.max(arr1.length, arr2.length);
+//   for (let i = 0; i < maxLength; i++) {
+//     let val1 = arr1[i] ?? 0;
+//     let val2 = arr2[i] ?? 0;
+//     let sum = val1 + val2;
+//     newArr.push(sum);
+//   }
+//   return newArr;
+// }
+
+// let arr_1 = [1, 2, 3, 0, 5, 6];
+// let arr_2 = [1, 2, -1, 4, 5,];
+
+// console.log(sumArraysByIndex(arr_1, arr_2));
 
 Question 
 ==============
